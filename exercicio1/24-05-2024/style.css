@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 800px;
+  margin: 20px;
+}
+
+.capa {
+  position: relative;
+}
+
+.imagem {
+  display: block;
+}
+.image {
+  width: 100%;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  border-top: 20px;
+}
+
+.tempo {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+h2 {
+  margin-top: 15px;
+}
+
+p {
+  margin-top: 5px;
+  font-weight: 400;
+  color: gray;
+}
