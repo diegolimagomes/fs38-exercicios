@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.produto {
+  width: 320px;
+  height: auto;
+  overflow: hidden;
+}
+
+.info {
+  margin-left: 30px;
+}
+
+.relogio {
+  width: 300px;
+  height: 300px;
+  margin: 30px;
+  text-align: center;
+}
+
+.frete {
+  position: absolute;
+  width: 300px;
+  height: auto;
+  top: 0px;
+  margin: 30px;
+}
+
+.titulo {
+  font-size: larger;
+  margin-bottom: 10px;
+}
+
+.preco {
+  display: flex;
+  justify-content: space-between;
+}
+
+.valor {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #c76653;
+}
+
+.vendidos {
+  margin-top: 20px;
+  font-size: medium;
+  color: #a8a6a5;
+}
