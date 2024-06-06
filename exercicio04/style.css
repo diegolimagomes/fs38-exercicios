@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.post {
+  display: flex;
+  width: 350px;
+  margin: 0 auto;
+  background-color: rgb(247, 245, 245);
+  border: 1px solid rgb(187, 186, 186);
+  border-radius: 10px;
+}
+.container {
+  display: block;
+  width: 350px;
+  padding: 20px;
+  gap: 10px;
+}
+.imagem {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.image {
+  display: flex;
+  gap: 10px;
+}
+
+.nome-verificado {
+  display: flex;
+  gap: 2px;
+}
+
+.nome-elon {
+  margin-left: 5px;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.arroba {
+  font-size: 14px;
+  color: #615f5f;
+}
+.arroba-follow {
+  display: flex;
+  gap: 5px;
+  font-size: 14px;
+  font-weight: bolder;
+  color: #00acee;
+}
+
+.follow {
+  text-decoration: none;
+  margin-top: 3px;
+}
+
+.verificado {
+  width: 15px;
+}
+
+.x-preto {
+  width: 15px;
+}
+
+.dividir {
+  display: flex;
+  justify-content: space-between;
+}
+
+.texto {
+  margin-top: 10px;
+}
+
+.post-elon {
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.simbolo-info {
+  width: 20px;
+  height: 20px;
+}
+
+p {
+  color: #615f5f;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 3px 0px 3px;
+}
+.informacoes {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(187, 186, 186);
+}
+
+.likes {
+  display: flex;
+  gap: 10px;
+}
+
+.like {
+  width: 20px;
+  margin-top: 4px;
+}
+
+.curtida {
+  display: flex;
+  gap: 5px;
+}
+
+.reply {
+  display: flex;
+  gap: 5px;
+}
+
+.comentario {
+  width: 20px;
+  margin-top: 4px;
+}
+
+.copy-link {
+  display: flex;
+  gap: 5px;
+}
+.link {
+  width: 20px;
+  margin-top: 4px;
+}
+
+.letras-likes {
+  color: #615f5f;
+  font-weight: 400;
+  font-size: 14px;
+  font-weight: bolder;
+  margin: 3px 0px 3px;
+}
+
+.read {
+  border: 1px solid rgb(187, 186, 186);
+  border-radius: 20px;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 10px;
+  height: 30px;
+}
+
+.botao {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #00acee;
+}
