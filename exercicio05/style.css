@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 350px;
+  height: auto;
+  margin: 0 auto;
+  background-color: #11191f;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+}
+
+.borda {
+  width: 100%;
+  border: 1px solid rgb(187, 186, 186);
+  border-radius: 10px;
+}
+
+.header {
+  padding: 10px;
+}
+
+.vercell {
+  width: 50px;
+  border-radius: 10px;
+}
+
+.alinhar-header {
+  display: flex;
+  gap: 10px;
+}
+
+.last-month {
+  display: flex;
+  
+}
