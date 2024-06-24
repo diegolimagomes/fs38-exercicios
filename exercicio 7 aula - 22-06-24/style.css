@@ -52,8 +52,9 @@ li {
   display: block;
   width: 539.37px;
   height: 421px;
-  margin-top: 280px;
+  margin-top: 240px;
   margin-left: 167.12px;
+  margin-bottom: 388px;
 }
 
 .text-big {
@@ -67,6 +68,7 @@ li {
   color: #505f98;
   font-weight: 400;
   font-size: 18px;
+  margin-bottom: 69px;
 }
 
 .buttons {
@@ -81,6 +83,7 @@ li {
   background: #111b47;
   color: #ffffff;
   font-weight: 500;
+  border: none;
 }
 
 .Learn {
@@ -91,6 +94,7 @@ li {
   color: #091133;
   background-color: transparent;
   font-weight: 500;
+  border-color: #091133;
 }
 
 .dividir-img-tx {
@@ -102,16 +106,34 @@ li {
   width: 500px;
   height: 500px;
   top: 275px;
-
   margin-top: 295px;
+  margin-bottom: 86px;
 }
 
 .textos-pag2 {
   display: block;
   width: 539.37px;
   height: 204px;
-  margin-top: 280px;
+  margin-top: 134px;
   margin-left: 167.12px;
+}
+
+.text-big-pag2 {
+  font-size: 36px;
+  color: #091133;
+  margin-bottom: 16px;
+}
+
+.text-little-pag2 {
+  font-size: 16px;
+  color: #6f7cb2;
+  margin-bottom: 80px;
+}
+
+.icone {
+  width: 36px;
+  height: 36px;
+  margin-bottom: 10px;
 }
 .cards {
   display: flex;
@@ -132,42 +154,212 @@ li {
 
 .text-card1-big {
   color: #091133;
-  font-weight: 16px;
+  font-size: 16px;
   font-weight: 500;
+  margin-bottom: 16px;
 }
 
 .text-card1 {
   color: #5d6970;
-  font-weight: 12px;
+  font-size: 12px;
 }
 
 .image-2 {
   width: 540px;
   height: 524px;
-  margin-top: 120px;
+  margin-top: 50px;
   margin-right: 165px;
+  margin-bottom: 135px;
 }
 
-.dividir {
+.dividir-img-tx {
   display: flex;
 }
 
-.imagem-page3 {
+.image-3 {
   width: 480px;
   height: 315px;
   margin-top: 97px;
-  margin-left: 167.12px;
+  margin-left: 155px;
+  margin-bottom: 131px;
 }
 
 .textos-page-3 {
-  width: 480px;
+  width: 445px;
   height: 228px;
-  margin-right: 165px;
-  margin-top: 97px;
+  margin-right: 80px;
+  margin-top: 146px;
+  margin-bottom: 167px;
 }
 
 .text-big-3 {
   color: #091133;
-  font-weight: 50px;
-  font-weight: 500;
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.text-little-page3 {
+  font-size: 16px;
+  color: #6f7cb2;
+}
+
+.image-4 {
+  width: 540px;
+  height: 387px;
+  margin-top: 91.76px;
+  margin-left: 161px;
+  margin-bottom: 114.24px;
+}
+
+.textos-page-4 {
+  width: 445px;
+  height: 228px;
+  margin-right: 80px;
+  margin-top: 172px;
+  margin-bottom: 163.46px;
+}
+
+.image-5 {
+  width: 445px;
+  height: 312px;
+  margin-top: 141.93px;
+  margin-left: 209px;
+
+  margin-bottom: 114.24px;
+}
+
+.textos-page-5 {
+  width: 445px;
+  height: 250px;
+  margin-right: 80px;
+  margin-top: 172px;
+  margin-bottom: 163.46px;
+}
+
+.btn-Purchase {
+  width: 150px;
+  height: 32px;
+  top: 686px;
+  left: 167.12px;
+  background: #111b47;
+  color: #ffffff;
+  font-size: 14px;
+  margin-top: 40px;
+  margin-bottom: 171.39px;
+  border: none;
+}
+
+.page6 {
+  background-image: url(./assets/img/imgPag6.png);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+
+.containe-page6 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 600px;
+  height: auto;
+}
+.text-big-6 {
+  font-size: 36px;
+  color: #091133;
+  margin-top: 223px;
+  margin-bottom: 16px;
+}
+
+.text-little-6 {
+  font-size: 16px;
+  color: #6f7cb2;
+  margin-bottom: 36px;
+}
+
+.price {
+  font-size: 50px;
+  color: #222f65;
+  margin-bottom: 10px;
+}
+
+.text-littlep-6 {
+  font-size: 14px;
+  color: #6f7cb2;
+}
+
+.btn-Purchase-now {
+  width: 189px;
+  height: 32px;
+  background: #111b47;
+  color: #ffffff;
+  font-size: 14px;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 172.33px;
+  margin-left: 207px;
+}
+
+.footer {
+  background-color: #e7ecff;
+  height: 216px;
+}
+
+.top-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-little-footer-top {
+  font-size: 14px;
+  color: #939ea4;
+  margin-top: 68px;
+  margin-left: 165px;
+}
+
+.text-big-footer-top {
+  font-size: 26px;
+  font-weight: bold;
+  color: #37447e;
+  margin-top: 68px;
+}
+
+.btn-Purchase-footer {
+  width: 109px;
+  height: 26px;
+  background: #111b47;
+  color: #ffffff;
+  font-size: 12px;
+  border: none;
+  margin-top: 68px;
+  margin-right: 40px;
+}
+
+hr {
+  margin-top: 40px;
+  color: #cdd1d4;
+}
+
+.links-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.list-link {
+  display: flex;
+  margin-left: 165px;
+  gap: 60px;
+  margin-top: 20px;
+}
+
+.link-footer {
+  font-size: 14px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #929ecc;
+}
+
+.icones {
+  display: flex;
+  margin-top: 20px;
+  margin-right: 40px;
+  gap: 30px;
 }
